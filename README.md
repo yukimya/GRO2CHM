@@ -29,15 +29,15 @@ If not, see [web site of GNU](http://www.gnu.org/licenses/).
 
 you need psfgen (NAMD) program 
 
-#!/bin/sh
-#Step 1: modifying the atom name on gro file 
-perl namemap_gro2chm.pl namedata.db fg_popc_G53a6_md_free.gro > out.gro
-#Step 2: translate gro to pdb
-perl gro2pdb.pl out.gro > out.pdb
-#Step 3: splitting the pdb file
-perl split_pdb.pl P out.pdb > out_p.pdb
-perl split_pdb.pl L out.pdb > out_l.pdb
-perl split_pdb.pl W out.pdb > out_w.pdb
-perl split_pdb.pl I out.pdb > out_i.pdb
-#Step 4: create psf file ; please modify psfgen.sh as you like
-sh psfgen.sh
+    #!/bin/sh
+    #Step 1: modifying the atom name on gro file 
+    perl namemap_gro2chm.pl namedata.db fg_popc_G53a6_md_free.gro > out.gro
+    #Step 2: translate gro to pdb
+    perl gro2pdb.pl out.gro > out.pdb
+    #Step 3: splitting the pdb file
+    perl split_pdb.pl P out.pdb > out_p.pdb
+    perl split_pdb.pl L out.pdb > out_l.pdb
+    perl split_pdb.pl W out.pdb > out_w.pdb
+    perl split_pdb.pl I out.pdb > out_i.pdb
+    #Step 4: create psf file ; please modify psfgen.sh as you like
+    sh psfgen.sh
