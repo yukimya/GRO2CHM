@@ -27,8 +27,8 @@ If not, see [web site of GNU](http://www.gnu.org/licenses/).
 
 ----------------------------------------------------------------------
 
-#  you need psfgen (NAMD) program 
-#
+you need psfgen (NAMD) program 
+
 #!/bin/sh
 #Step 1: modifying the atom name on gro file 
 perl namemap_gro2chm.pl namedata.db fg_popc_G53a6_md_free.gro > out.gro
