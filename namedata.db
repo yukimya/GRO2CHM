@@ -1,0 +1,112 @@
+# mapping file
+# written by Naoyuki Miyashita 2012/07/09
+#
+#GROMCAS   CHARM C36
+#234567890_1234567890
+#RESIDUE: NTERM
+ASP______N ASP______N
+ASP_____H1 ASP____HT1
+ASP_____H2 ASP____HT2
+ASP_____H3 ASP____HT3
+#RESIDUE: CTERM
+LYSH____O1 LYS____OT1
+LYSH____O2 LYS____OT2
+#RESIDUE:
+VAL______H VAL_____HN   1
+GLY______H GLY_____HN   2
+SER______H SER_____HN   3
+SER_____HG SER____HG1
+ASN______H ASN_____HN   4
+ALA______H ALA_____HN   5
+ILE______H ILE_____HN   6
+LEU______H LEU_____HN   7
+MET______H MET_____HN   8
+THR______H THR_____HN   9
+ASP______H ASP_____HN  10 not checked
+CYS______H CYS_____HN  11 not checked
+GLN______H GLN_____HN  12 not checked
+GLU______H GLU_____HN  13 not checked
+HSD______H HSD_____HN  14 not checked
+HSE______H HSE_____HN     not checked
+HSP______H HSP_____HN     not checked
+PHE______H PHE_____HN  15 not checked
+PRO______H PRO_____HN  16 not checked
+TRP______H TRP_____HN  17 not checked
+TYR______H TYR_____HN  18 not checked
+ARG______H ARG_____HN  19 not checked
+LYSH_____H LYS_____HN  20
+#RESIDUE: LYSH
+LYSH_____N LYS______N
+LYSH_____H LYS_____HN
+LYSH____CA LYS_____CA
+LYSH____CB LYS_____CB
+LYSH____CG LYS_____CG
+LYSH____CD LYS_____CD
+LYSH____CE LYS_____CE
+LYSH____NZ LYS_____NZ
+LYSH___HZ1 LYS____HZ1
+LYSH___HZ2 LYS____HZ2
+LYSH___HZ3 LYS____HZ3
+LYSH_____C LYS______C
+LYSH_____O LYS______O
+#RESIDUE: POPC
+POPC____C1 POPC___C13
+POPC____C2 POPC___C15
+POPC____C3 POPC___C14
+POPC____N4 POPC_____N
+POPC____C5 POPC___C12
+POPC____C6 POPC___C11
+POPC____O7 POPC___O12
+POPC____P8 POPC_____P
+POPC____O9 POPC___O13
+POPC___O10 POPC___O14
+POPC___O11 POPC___O11
+POPC___C12 POPC____C1
+POPC___C13 POPC____C2
+POPC___O14 POPC___O21
+POPC___C15 POPC___C21
+POPC___O16 POPC___O22
+POPC___C17 POPC___C22
+POPC___C18 POPC___C23
+POPC___C19 POPC___C24
+POPC___C20 POPC___C25
+POPC___C21 POPC___C26
+POPC___C22 POPC___C27
+POPC___C23 POPC___C28
+POPC___C24 POPC___C29
+POPC___C25 POPC__C210
+POPC___C26 POPC__C211
+POPC___C27 POPC__C212
+POPC___C28 POPC__C213
+POPC___C29 POPC__C214
+POPC___C30 POPC__C215
+POPC___C31 POPC__C216
+POPC___C32 POPC____C3
+POPC___O33 POPC___O31
+POPC___C34 POPC___C31
+POPC___O35 POPC___O32
+POPC___C36 POPC___C32
+POPC___C37 POPC___C33
+POPC___C38 POPC___C34
+POPC___C39 POPC___C35
+POPC___C40 POPC___C36
+POPC___C41 POPC___C37
+POPC___C42 POPC___C38
+POPC___C43 POPC___C39
+POPC___C44 POPC__C310
+POPC___C45 POPC__C311
+POPC___C46 POPC__C312
+POPC___C47 POPC__C313
+POPC___C48 POPC__C314
+POPC___C49 POPC__C315
+POPC___C50 POPC__C316
+POPC___CA1 POPC__C217
+POPC___CA2 POPC__C218
+#WATER
+SOL_____OW TIP3___OH2
+SOL____HW1 TIP3____H1
+SOL____HW2 TIP3____H2
+#NA
+NA______NA SOD____SOD
+#CL
+CL______CL CLA____CLA
