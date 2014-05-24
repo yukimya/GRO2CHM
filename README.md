@@ -8,6 +8,7 @@ __version 1.0__
  This program is written in perl script.
 
 __GRO2CHM was developed by Naoyuki Miyashita__
+
 -----------------------------------------
 #### Announcement
  contact e-mail <yukimya+gro2chm@gmail.com>
